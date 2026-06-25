@@ -69,31 +69,6 @@ As a **Project Mentor**, I guided the project development, mentored team members
 * Supervised the implementation of the **Policy Approval Index** and recommendation framework.
 * Reviewed technical progress and provided guidance on dashboard development and data visualization.
 
-## Repository Structure
-
-```
-PolitiPulse/
-│
-├── data/
-│   ├── raw_data/
-│   └── processed_data/
-│
-├── notebooks/
-│
-├── src/
-│   ├── preprocessing.py
-│   ├── sentiment_analysis.py
-│   ├── policy_mapping.py
-│   ├── dashboard.py
-│   └── recommendation_engine.py
-│
-├── app.py
-├── requirements.txt
-└── README.md
-```
-
----
-
 ## Future Improvements
 
 * Fine-tuning Transformer-based models (BERT/RoBERTa)
