@@ -2,9 +2,9 @@
 
 ## Overview
 
-"PolitiPulse" is an NLP-based analytics platform developed under the "Public Policy and Opinion Cell (PPOC), IIT Kanpur" to analyze public sentiment toward newly implemented government policies. The project leverages Natural Language Processing (NLP), sentiment analysis, and interactive visualization to quantify policy reception and generate actionable insights for policymakers.
+**PolitiPulse** is an NLP-based analytics platform developed under the **Public Policy and Opinion Cell (PPOC), IIT Kanpur** to analyze public sentiment toward newly implemented government policies. The project leverages Natural Language Processing (NLP), sentiment analysis, and interactive visualization to quantify policy reception and generate actionable insights for policymakers.
 
-As a "Project Mentor", I guided the project development, mentored team members on NLP methodologies, system architecture, and analytics workflow, while ensuring the successful implementation of an end-to-end policy sentiment analysis framework.
+As a **Project Mentor**, I guided the project development, mentored team members on NLP methodologies, system architecture, and analytics workflow, while ensuring the successful implementation of an end-to-end policy sentiment analysis framework.
 
 ## Objectives
 
@@ -15,13 +15,13 @@ As a "Project Mentor", I guided the project development, mentored team members o
 
 ## Key Features
 
-* "NLP-based sentiment analysis" for large-scale public opinion mining.
-* "Rule-based sentiment scoring" using the "VADER" framework.
-" "Interactive Streamlit Dashboard" for real-time visualization.
-* "Policy Approval Index" to measure public reception.
-* "Automated data pipeline" for collecting, preprocessing, and analyzing public opinion data.
-* "Clause-level sentiment mapping" to identify strengths and weaknesses of individual policy provisions.
-* "Recommendation engine" that generates structured reports based on sentiment trends.
+* **NLP-based sentiment analysis** for large-scale public opinion mining.
+* **Rule-based sentiment scoring** using the **VADER** framework.
+* **Interactive Streamlit Dashboard** for real-time visualization.
+* **Policy Approval Index** to measure public reception.
+* **Automated data pipeline** for collecting, preprocessing, and analyzing public opinion data.
+* **Clause-level sentiment mapping** to identify strengths and weaknesses of individual policy provisions.
+* **Recommendation engine** that generates structured reports based on sentiment trends.
 
 ## System Architecture
 
@@ -69,6 +69,31 @@ As a "Project Mentor", I guided the project development, mentored team members o
 * Supervised the implementation of the **Policy Approval Index** and recommendation framework.
 * Reviewed technical progress and provided guidance on dashboard development and data visualization.
 
+## Repository Structure
+
+```
+PolitiPulse/
+│
+├── data/
+│   ├── raw_data/
+│   └── processed_data/
+│
+├── notebooks/
+│
+├── src/
+│   ├── preprocessing.py
+│   ├── sentiment_analysis.py
+│   ├── policy_mapping.py
+│   ├── dashboard.py
+│   └── recommendation_engine.py
+│
+├── app.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
 ## Future Improvements
 
 * Fine-tuning Transformer-based models (BERT/RoBERTa)
@@ -87,6 +112,6 @@ As a "Project Mentor", I guided the project development, mentored team members o
 
 ## Acknowledgements
 
-This project was developed under the "Public Policy and Opinion Cell (PPOC), IIT Kanpur".
+This project was developed under the **Public Policy and Opinion Cell (PPOC), IIT Kanpur**.
 
 Special thanks to all project contributors for their dedication and collaborative efforts.
